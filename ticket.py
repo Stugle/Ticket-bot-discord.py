@@ -50,7 +50,7 @@ async def on_ready():
                     "animated": False
                     }, 
                     style=ButtonType().Secondary, 
-                    custom_id="button_one"          # Refer to line 13
+                    custom_id="button_one"          
                 ),Button(
                     label="Category 2",
                     emoji = {
@@ -59,7 +59,7 @@ async def on_ready():
                     "animated": False
                     },
                     style=ButtonType().Secondary,
-                    custom_id="button_two"          # Refer to line 17
+                    custom_id="button_two"          
                 ),Button(
                     label="Category 3",
                     emoji = {
@@ -68,7 +68,7 @@ async def on_ready():
                     "animated": False
                     },
                     style=ButtonType().Secondary,
-                    custom_id="button_three"        # Refer to line 21
+                    custom_id="button_three"        
                 )
             ])
         ]
